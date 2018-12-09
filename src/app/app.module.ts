@@ -8,11 +8,13 @@ import { fakeBackendProvider } from './_helpers';
 import { routing } from './app.routing';
 import { AlertComponent } from './_components';
 import { JwtInterceptor, ErrorInterceptor } from './_helpers';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AlertComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
